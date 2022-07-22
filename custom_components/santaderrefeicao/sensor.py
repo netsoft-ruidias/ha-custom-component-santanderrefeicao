@@ -106,7 +106,8 @@ class SantanderSensor(SensorEntity):
     def extra_state_attributes(self) -> Dict[str, Any]:
         """Return the state attributes."""
         return {
-            "updated": self._updated
+            "CardRef": self._cardRef,
+            "GrossBalance": self._grossBalance
         }
 
     async def async_update(self) -> None:

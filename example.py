@@ -7,8 +7,8 @@ async def main():
     async with aiohttp.ClientSession() as session:
         api = SantanderRefeicaoAPI(session)
 
-        username = input("Enter your Card Number.......: ") or "4293430611720167"
-        password = input("Enter the Verification Code..: ") or "338338"
+        username = input("Enter your Card Number.......: ") 
+        password = input("Enter the Verification Code..: ") 
 
         login = await api.login(username, password)
         if login:
