@@ -16,7 +16,7 @@
             }
         },
         "error": {
-            "auth": "Credenciais inválidas para verificar os Saldos e Movimentos do seu Cartão Refeição, Pré-Pago ou Mundicenter GiftCard.",
+            "auth": "Credenciais inválidas para verificar os Saldos e Movimentos do seu Cartão Refeição, Pré-Pago ou Mundicenter GiftCard."
         },
         "abort": {
             "single_instance_allowed": "Só é permitida uma unica integração do Sodexo.",
