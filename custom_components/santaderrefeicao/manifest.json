@@ -1,0 +1,14 @@
+{
+    "version": "0.1.0",
+    "domain": "santanderrefeicao",
+    "name": "Santander (Portugal) Cartão Refeição",
+    "documentation": "https://github.com/netsoft-ruidias/ha-custom-component-santanderrefeicao/blob/main/README.md",
+    "issue_tracker": "https://github.com/netsoft-ruidias/ha-custom-component-santanderrefeicao/issues",
+    "iot_class": "cloud_polling",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": [
+        "@netsoft-ruidias"
+    ],
+    "config_flow": true
+}

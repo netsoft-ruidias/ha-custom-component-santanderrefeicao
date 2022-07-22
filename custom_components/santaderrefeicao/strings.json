@@ -1,0 +1,26 @@
+{
+    "title": "Santander (Portugal) Cartão Refeição",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Add Credentials",
+                "description": "Please type your credentials",
+                "data": {
+                    "username": "Card Number",
+                    "password": "Security"
+                },
+                "data_description": {
+                    "username": "Your Card Number",
+                    "password": "Your card security digits"
+                }
+            }
+        },
+        "error": {
+            "auth": "Invalid credentials accessing Santander Portugal."
+        },
+        "abort": {
+            "single_instance_allowed": "Only a single configuration of Sodexo is allowed.",
+            "already_configured": "Integration is already configured"
+        }
+    }
+}

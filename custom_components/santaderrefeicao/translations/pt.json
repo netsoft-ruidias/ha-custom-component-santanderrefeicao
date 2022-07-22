@@ -1,0 +1,26 @@
+{
+    "title": "Santander (Portugal) Cartão Refeição",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Credenciais de Acesso",
+                "description": "Por favor, introduza o seu nome de utilizador (NIF) e palavra passe que usa para ter acesso ao portal https://minhaconta.sodexobeneficios.pt/.",
+                "data": {
+                    "username": "Número do Cartão",
+                    "password": "Código de verificação (2 vezes)"
+                },
+                "data_description": {
+                    "username": "Introduza o Número de Cartão",
+                    "password": "Introduze o Código de verificação do cartão duas vezes (Ex.: 123123)"
+                }
+            }
+        },
+        "error": {
+            "auth": "Credenciais inválidas para verificar os Saldos e Movimentos do seu Cartão Refeição, Pré-Pago ou Mundicenter GiftCard.",
+        },
+        "abort": {
+            "single_instance_allowed": "Só é permitida uma unica integração do Sodexo.",
+            "already_configured": "Esta integração já existe"
+        }
+    }
+}
